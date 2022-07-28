@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Temperature Converter
+
+        </title>
+        <link rel="stylesheet" href="C:\Users\HP\Desktop\Practice\cstyle.css">
+
+    </head>
+<body>
+    <h1>Temperature Converter</h1>
+    <form id="tempCalc" onsubmit="calculateTemp(); return false">
+        <div class="block">
+            <label for="temp">Enter number</label>
+        
+        <br>
+        <div class="output">
+        <input type="number" id="temp" name="temp" ><br>
+        </div>
+        <select id="temp_diff" name="temp_diff">
+            <option value="cel">°celsius</option>
+            <option value="fah">°fahrenheit</option>
+        </select><br>
+        <div id="button">
+        <input type="submit" name="temp"> <br>
+        </div>
+        <span id="resultcontainer"></span>
+        </div>
+    </form>
+    <script src="C:\Users\HP\Desktop\Practice\script.js"></script>
+</body>
+</html>

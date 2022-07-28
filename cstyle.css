@@ -1,0 +1,51 @@
+body{
+    background-color: blueviolet;
+    left:50%;
+    top:50%;
+    padding: 10% 25%;
+    width:40%;
+    height:0vh;
+
+}
+body h1{
+    width:100%;
+    height:10vh;
+    display:flex;
+    padding-left: 30%;
+    color: white;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.block{
+    border: 1em solid white;
+    background-color: aliceblue;
+    width:120%;
+    height:40vh;
+    border-radius: 10%;
+    font-size:40px;
+    align:center;
+    
+}
+.block input{
+    width:100%;
+    height: 8vh;
+    font-size: large;
+    
+}
+#temp_diff{
+    width:40%;
+    height:5vh;
+}
+.output{
+    font-size: 100%;
+    
+}
+.block:focus{
+    background-color: blue;
+}
+#button{
+    left: 50%;
+    top:40%;
+    background-color: aliceblue;
+    
+}
